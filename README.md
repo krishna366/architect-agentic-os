@@ -12,7 +12,7 @@ This repository defines a disciplined agent system where:
 
 - Project-specific agents gather current project signals.
 - Builder agents convert project context into architecture and execution artifacts.
-- Challenger agents review assumptions, risks, and design quality.
+- Reviewer agents challenge assumptions, risks, and design quality.
 - Explorer agents research future opportunities and emerging ideas.
 - Strategist agents translate technical work into executive narratives.
 - Navigator agents support long-term career direction using sanitized personal inputs.
@@ -53,7 +53,7 @@ Responsibilities:
 - Code/design review support
 - Delivery-risk analysis
 
-### Challenger Agent
+### Reviewer Agent
 
 Acts as a critical architecture reviewer.
 
@@ -115,7 +115,7 @@ Human-auditable task packet
     ↓
 Builder Agent
     ↓
-Challenger Agent
+Reviewer Agent
     ↓
 Builder revision
     ↓
@@ -139,14 +139,18 @@ architect-agentic-os/
   agents/
     sample-project-agent/
     sample-builder-agent/
-    challenger/
     explorer/
+    reviewer/
     strategist/
     navigator/
 
   templates/
     project-agent/
     builder-agent/
+    explorer/
+    reviewer/
+    strategist/
+    navigator/
     common/
     task-packets/
     handoffs/
@@ -204,7 +208,7 @@ Project-specific confidential work should remain in private local workspaces or 
 4. Run one Project Agent for one active project.
 5. Review its task packets manually.
 6. Feed approved packets to the Builder Agent.
-7. Run Challenger review.
+7. Run Reviewer review.
 8. Use Strategist to convert the output into leadership-ready communication.
 9. Send only sanitized weekly summaries to Navigator.
 

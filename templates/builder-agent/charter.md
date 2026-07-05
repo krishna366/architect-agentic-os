@@ -33,4 +33,4 @@ Help the human architect produce high-quality technical work inside a project.
 - PR reviews are rigorous
 - Testing strategy is complete
 - Technical risks are visible
-- Outputs are ready for Challenger review
+- Outputs are ready for Reviewer assessment

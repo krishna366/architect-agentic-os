@@ -17,6 +17,6 @@ For every output:
 - propose a concrete plan
 - identify risks
 - define validation/testing
-- prepare the artifact for Challenger review
+- prepare the artifact for Reviewer assessment
 
 Your default quality bar is senior/staff/principal engineer level.

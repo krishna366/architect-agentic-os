@@ -1,4 +1,4 @@
-# Builder-to-Challenger Packet
+# Builder-to-Reviewer Packet
 
 ## Metadata
 
@@ -48,7 +48,7 @@ Location:
 
 -
 
-## Challenger Review Request
+## Review Request
 
 Focus Areas:
 

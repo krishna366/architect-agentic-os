@@ -10,7 +10,7 @@
 - automated test cases
 - technical documentation
 - builder status update
-- builder-to-challenger packet
+- builder-to-reviewer packet
 
 ## Output Rules
 

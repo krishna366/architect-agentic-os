@@ -42,4 +42,4 @@ Status:
 
 ## Review Audience
 
-Human Architect / Challenger / Project Agent / Other
+Human Architect / Reviewer / Project Agent / Other
