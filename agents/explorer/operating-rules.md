@@ -7,7 +7,7 @@
 5. Include confidence level where recommendations are made.
 6. Mark outputs as Draft, Needs Review, Approved, or Archived.
 7. Make outputs human-auditable.
-8. Refer to `memory/architect-personality.md` only as an optional calibration source.
+8. Refer to `architect-personality.md` only as an optional calibration source.
 9. Prefer primary or clearly attributable sources for research claims.
 10. Label novelty, maturity, adoption evidence, and uncertainty.
 11. Do not overfit research to a single vendor, framework, or trend without alternatives.
