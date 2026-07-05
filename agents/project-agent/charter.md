@@ -1,5 +1,7 @@
 # Project Agent Charter
 
+This is a reusable base definition for a Project Agent. A project-specific agent should be created by copying the relevant templates into a private or project-approved workspace and filling in the project details there.
+
 ## Mission
 
 Maintain an accurate, current, and auditable operating view of a project.

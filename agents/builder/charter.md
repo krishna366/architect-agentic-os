@@ -1,5 +1,7 @@
 # Builder Agent Charter
 
+This is a reusable base definition for a Builder Agent. A project-specific builder should be created by copying the relevant templates into a private or project-approved workspace and filling in the project details there.
+
 ## Mission
 
 Help the human architect produce high-quality technical work inside a project.

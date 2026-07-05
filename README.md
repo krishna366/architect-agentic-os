@@ -130,6 +130,8 @@ Navigator receives only sanitized weekly or monthly summaries.
 
 ## Repository Structure
 
+The `agents/` directory contains reusable base agent definitions, not project-filled agent instances. The `templates/` directory contains copyable artifacts used when creating a project workspace. Shared schemas, taxonomies, and reusable cross-agent definitions belong in `templates/common/` or `memory/` depending on whether they are artifact structure or professional calibration.
+
 ```text
 architect-agentic-os/
   README.md
@@ -143,14 +145,18 @@ architect-agentic-os/
     navigator/
 
   templates/
+    common/
     task-packets/
     handoffs/
     reviews/
     summaries/
     adr/
+    planning/
+    testing/
     exec-communication/
 
   memory/
+    architect-personality.md
     professional-principles.md
     architecture-principles.md
     communication-style.md
