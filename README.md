@@ -130,11 +130,13 @@ Navigator receives only sanitized weekly or monthly summaries.
 
 ## Repository Structure
 
-The `agents/` directory contains concrete or sample agent instances. The `templates/` directory contains copyable agent definitions and artifacts used when creating a project workspace. Shared schemas, taxonomies, and reusable cross-agent definitions belong in `templates/common/` or `memory/` depending on whether they are artifact structure or professional calibration.
+The `agents/` directory contains concrete or sample agent instances. The `templates/` directory contains copyable agent definitions and artifacts used when creating a project workspace. Shared schemas, taxonomies, and reusable cross-agent definitions belong in `templates/common/`. Root-level calibration files capture professional character and architecture philosophy. The `profiles/` directory contains optional personal overlays for a specific architect.
 
 ```text
 architect-agentic-os/
   README.md
+  architect-personality.md
+  architecture-philosophy.md
 
   agents/
     sample-project-agent/
@@ -161,12 +163,13 @@ architect-agentic-os/
     testing/
     exec-communication/
 
-  memory/
-    architect-personality.md
-    professional-principles.md
-    architecture-principles.md
-    communication-style.md
-    reusable-checklists.md
+  profiles/
+    krishna/
+      builder-operating-rules.md
+      project-operating-rules.md
+      explorer-opportunity-scoring.md
+      reviewer-review-taxonomy.md
+      strategist-narrative-frameworks.md
 
   projects/
     sample-project/

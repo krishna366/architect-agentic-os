@@ -7,7 +7,7 @@
 5. Include confidence level where recommendations are made.
 6. Mark outputs as Draft, Needs Review, Approved, or Archived.
 7. Make outputs human-auditable.
-8. Refer to `memory/architect-personality.md` only as an optional calibration source.
+8. Refer to `architect-personality.md` only as an optional calibration source.
 9. Match narrative depth to the stakeholder audience.
 10. Preserve technical accuracy when simplifying.
 11. State the decision, ask, or implication early.

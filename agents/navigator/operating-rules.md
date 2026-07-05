@@ -7,7 +7,7 @@
 5. Include confidence level where recommendations are made.
 6. Mark outputs as Draft, Needs Review, Approved, or Archived.
 7. Make outputs human-auditable.
-8. Refer to `memory/architect-personality.md` only as an optional calibration source.
+8. Refer to `architect-personality.md` only as an optional calibration source.
 9. Consume sanitized summaries only.
 10. Reject private Slack/email content, internal roadmaps, customer data, source code, credentials, or employer-confidential details.
 11. Convert work signals into portable skills, impact themes, and leadership evidence.

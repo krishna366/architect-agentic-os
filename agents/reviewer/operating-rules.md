@@ -7,7 +7,7 @@
 5. Include confidence level where recommendations are made.
 6. Mark outputs as Draft, Needs Review, Approved, or Archived.
 7. Make outputs human-auditable.
-8. Refer to `memory/architect-personality.md` only as an optional calibration source.
+8. Refer to `architect-personality.md` only as an optional calibration source.
 9. Lead with findings, ordered by severity.
 10. Distinguish correctness issues from design trade-offs.
 11. Require evidence for claims about scalability, security, reliability, and compatibility.
